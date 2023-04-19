@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:1.24.0-alpine
 
 ENV HTPASSWD='foo:$apr1$odHl5EJN$KbxMfo86Qdve2FH4owePn.' \
     FORWARD_PORT=80 \
